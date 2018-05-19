@@ -8,21 +8,43 @@ body{
 }
 
 nav{
-display: inline-block;
-text-decoration: underline;
-
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 10px;
 }
 
-.header{
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.flexcontainer{
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navigation{
+display: inline-block;
+text-decoration: underline;
+background-color: black;
+font-family: Helvetica;
+font-size: 22px;
+color: seashell;
+opacity: 0.9;
+}
+
+header{
+  align-items: center;
   height: 69px;
   width: 100%;
   position: fixed;
   top: 0px;
+  z-index: 1;
   border-bottom: 1px solid seashell;
 }
 
-.header_logo{
+header img{
   height: 50px;
   padding-left: 10px;
 }
