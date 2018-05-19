@@ -5,12 +5,12 @@ body{
   color: seashell;
   opacity: 0.9;
   text-align: center;
+  margin: 0;
 }
 
 nav{
   text-align: right;
   flex-grow: 1;
-  padding-right: 10px;
 }
 
 nav span{
@@ -27,7 +27,7 @@ nav span{
 .navigation{
 display: inline-block;
 text-decoration: underline;
-background-color: black;
+
 font-family: Helvetica;
 font-size: 22px;
 color: seashell;
@@ -39,12 +39,25 @@ header{
   height: 69px;
   width: 100%;
   position: fixed;
-  top: 0px;
   z-index: 1;
+  background-color: black;
   border-bottom: 1px solid seashell;
 }
 
 header img{
   height: 50px;
   padding-left: 10px;
+}
+
+.content_block{
+  width: 1200px;
+  opacity: 0.9;
+  padding-top: 69px;
+  margin: auto;
+}
+
+.mission_image{
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 100%;
 }
