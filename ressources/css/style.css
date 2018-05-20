@@ -72,3 +72,32 @@ header img{
 display: inline-block;
 background-color: black;
 }
+
+.shop_block{
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.features{
+
+}
+
+.feature{
+  padding: 5px;
+}
+
+.feature img{
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin: 10px;
+}
+
+.feature span{
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
